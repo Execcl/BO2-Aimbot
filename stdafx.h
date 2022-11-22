@@ -32,6 +32,15 @@
 #include <cellstatus.h>
 #include <sys/integertypes.h>
 #include <algorithm>
+#include <cfloat>
 
 using namespace libpsutil::math;
+using namespace libpsutil::memory;
 
+#include "game_structures.h"
+
+#include "game_calls.h"
+#include "game_functions.h"
+
+#include "aimbot.h"
+#include "visuals.h"

@@ -69,14 +69,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="aimbot.h" />
+    <ClInclude Include="game_calls.h" />
+    <ClInclude Include="game_functions.h" />
+    <ClInclude Include="game_structures.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="visuals.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="aimbot.cpp" />
+    <ClCompile Include="game_functions.cpp" />
+    <ClCompile Include="game_structures.cpp" />
     <ClCompile Include="prx.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|PS3'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="visuals.cpp" />
   </ItemGroup>
   <Import Condition="'$(ConfigurationType)' == 'Makefile' and Exists('$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets')" Project="$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

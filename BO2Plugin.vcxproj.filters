@@ -7,6 +7,18 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="game_structures.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
+    <ClCompile Include="game_functions.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -15,10 +27,37 @@
     <Filter Include="src\head">
       <UniqueIdentifier>{cc91f805-b5d1-4391-b770-889e3e8c950f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{c22a665c-0b04-4cb2-a087-83ae2b3284a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\head">
+      <UniqueIdentifier>{0e85d43f-2b03-4f4c-abcd-8b960cac59e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{f634ca2a-2671-494e-b957-7cdd857555bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\head">
+      <UniqueIdentifier>{0a763f66-5dbb-4905-aaf5-24e3dab73fd0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>src\head</Filter>
+    </ClInclude>
+    <ClInclude Include="game_structures.h">
+      <Filter>src\game\head</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>src\features\head</Filter>
+    </ClInclude>
+    <ClInclude Include="game_calls.h">
+      <Filter>src\game\head</Filter>
+    </ClInclude>
+    <ClInclude Include="game_functions.h">
+      <Filter>src\game\head</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.h">
+      <Filter>src\features\head</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
